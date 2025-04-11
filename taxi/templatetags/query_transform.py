@@ -14,3 +14,4 @@ def query_transform(request, **kwargs):
             updated.pop(key, 0)
 
     return updated.urlencode()
+
